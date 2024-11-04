@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Adicionado para garantir que padding e border não afetem a largura total */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url('imgs/bgdiv.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+}
+
+header {
+    width: 100vw;
+    background-color: #efeee9;
+    padding: 1vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #d1e5ff;
+    }
+
+    .textodapagina {
+        width: 30vw;
+        color: #db1b1b;
+        padding-left: 10px;
+        font-style: italic;
+        text-align: center; /* Centraliza o texto */
+    }
+
+    .links {
+        width: 60vw;
+    }
+
+    .links a {
+        text-decoration: none;
+        color: #db1b1b;
+        font-size: 1.5vw;
+        margin: 1vw;
+        font-style: italic;
+    }
+
+    .links a:hover {
+        color: #ffd43b;
+        font-size: 1.4vw;
+    }
+}
+
+main {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .container2 {
+        width: 45vw;
+        background-image: url('imgs/wallpaper.jpg');
+        background-size: cover; 
+        background-position: center; 
+        border-radius: 20px;
+        padding: 8vw;
+        margin: 5vw;
+        text-align: center;
+
+        form {
+            width: 100%; /* Ajustado para ocupar toda a largura do container */
+            display: flex; /* Flex para alinhar os inputs */
+            flex-direction: column; /* Coloca os inputs em coluna */
+            align-items: center; /* Centraliza os inputs */
+
+            input,
+            textarea {
+                width: 80%; /* Ajustado para uma largura responsiva */
+                border-radius: 10px;
+                margin: 1vw 0; /* Margem entre os inputs */
+                padding: 10px; /* Padding para inputs */
+            }
+
+            button {
+                margin-top: 10px; /* Margem superior para o botão */
+                padding: 10px 20px; /* Padding para o botão */
+                border-radius: 10px;
+                border: none; /* Remove a borda padrão */
+                background-color: #db1b1b; /* Cor de fundo do botão */
+                color: white; /* Cor do texto do botão */
+                cursor: pointer; /* Muda o cursor ao passar o mouse */
+            }
+
+            button:hover {
+                background-color: #ffd43b; /* Cor do botão ao passar o mouse */
+            }
+        }
+    }
+}
+
+footer {
+    width: 100vw;
+    height: 35px;
+
+    .copy {
+        background: #efeee9;
+        text-align: center; /* Centraliza o texto no footer */
+    }
+
+    .copy h3 {
+        color: #db1b1b;
+        font-style: italic;
+        padding: 1.5vw;
+    }
+
+    .copy h4 {
+        color: #db1b1b; 
+        font-style: oblique;
+        padding-bottom: 2vw;
+    }
+}

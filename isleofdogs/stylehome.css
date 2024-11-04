@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url('imgs/bgdiv.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+}
+
+header {
+    width: 100vw;
+    background-color: #efeee9;
+    padding: 1vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+    & .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #d1e5ff;
+    }
+
+    & .textodapagina {
+        width: 30vw;
+        color: #db1b1b;
+        padding-left: 10px;
+        font-style: italic;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    & .links {
+        width: 60vw;
+    }
+
+    & .links a {
+        text-decoration: none;
+        align-items: center;
+        color: #db1b1b;
+        font-size: 1.5vw;
+        margin: 1vw;
+        font-style: italic;
+    }
+
+    & .links a:hover {
+        color: #ffd43b;
+        font-size: 1.4vw;
+    }
+}
+
+main {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+    & .container2 {
+        width: 45vw;
+        background-image: url('imgs/bg1.jpg');
+        background-size: cover; 
+        background-position: center; 
+        border-radius: 20px;
+        padding: 8vw;
+        margin: 5vw;
+        text-align: center;
+    }
+
+    & .container2 h1 {
+        font-size: 5vw;
+        color: #db1b1b; 
+        font-style: italic;
+    }
+
+    & .container2 span {
+        font-size: 1.2vw;
+        color: #ffd43b;
+        background-color: #002453;
+    }
+}
+
+footer {
+    width: 100vw;
+    height: 35px;
+
+    & .copy {
+        background: #efeee9;
+    }
+
+    & .copy h3 {
+        color: #db1b1b;
+        text-align: center;
+        font-style: italic;
+        padding: 1.5vw;
+    }
+
+    & .copy h4 {
+        color: #db1b1b; 
+        font-style: oblique;
+        text-align: center;
+        padding-bottom: 2vw;
+    }
+}
