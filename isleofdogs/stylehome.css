@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url('imgs/bgdiv.jpg'); 
+    background-image: url('../imgs/bgdiv.jpg'); 
     background-size: cover; 
     background-position: center; 
 }
@@ -55,35 +55,29 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-
     
+
     & .container2 {
-        width: 80vw;
-        background: #db1b1b;
+        width: 45vw;
+        background-image: url('imgs/bg1.jpg');
+        background-size: cover; 
+        background-position: center; 
         border-radius: 20px;
         padding: 8vw;
         margin: 5vw;
-        display:flex;
         text-align: center;
-    
-        & .sinopse{
-            width:70vw;
-        }
+    }
 
-        & .sinopse h1{
-            font-size: 2vw;
-         color: #ffd43b;
-          background-color: #002453;
-          max-width: 15vw;
-        }
+    & .container2 h1 {
+        font-size: 5vw;
+        color: #db1b1b; 
+        font-style: italic;
+    }
 
-        & .sinopse p{
-        text-align: justify;
-           max-width: 70vw;
-           font-size: 1.2vw;
-           color: #002453;
-           padding: 1.5vw;
-        }
+    & .container2 span {
+        font-size: 1.2vw;
+        color: #ffd43b;
+        background-color: #002453;
     }
 }
 

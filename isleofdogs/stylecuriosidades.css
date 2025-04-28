@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url('imgs/bgdiv.jpg'); 
+    background-image: url('../imgs/bgdiv.jpg'); 
     background-size: cover; 
     background-position: center; 
 }
@@ -56,32 +56,33 @@ main {
     align-items: center;
     justify-content: center;
 
+    
     & .container2 {
-        width: 30vw;
+        width: 80vw;
         background: #db1b1b;
         border-radius: 20px;
         padding: 8vw;
         margin: 5vw;
         display:flex;
         text-align: center;
-        align-items: center;
-
-        & .trailer{
-            width: 100%;
-            height: 500px;
-            align-items: center;
-            justify-content: center;
-                align-items: center;
-                text-align: center;
-
+    
+        & .sinopse{
+            width:70vw;
         }
-        & .trailer iframe{
-                width: 100%;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                text-align: center;
-                margin: 20px 0; 
+
+        & .sinopse h1{
+            font-size: 2vw;
+         color: #ffd43b;
+          background-color: #002453;
+          max-width: 15vw;
+        }
+
+        & .sinopse p{
+        text-align: justify;
+           max-width: 70vw;
+           font-size: 1.2vw;
+           color: #002453;
+           padding: 1.5vw;
         }
     }
 }

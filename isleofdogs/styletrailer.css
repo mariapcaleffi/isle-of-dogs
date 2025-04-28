@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url('imgs/bgdiv.jpg'); 
+    background-image: url('../imgs/bgdiv.jpg'); 
     background-size: cover; 
     background-position: center; 
 }
@@ -55,29 +55,34 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    
 
     & .container2 {
-        width: 45vw;
-        background-image: url('imgs/bg1.jpg');
-        background-size: cover; 
-        background-position: center; 
+        width: 30vw;
+        background: #db1b1b;
         border-radius: 20px;
         padding: 8vw;
         margin: 5vw;
+        display:flex;
         text-align: center;
-    }
+        align-items: center;
 
-    & .container2 h1 {
-        font-size: 5vw;
-        color: #db1b1b; 
-        font-style: italic;
-    }
+        & .trailer{
+            width: 100%;
+            height: 500px;
+            align-items: center;
+            justify-content: center;
+                align-items: center;
+                text-align: center;
 
-    & .container2 span {
-        font-size: 1.2vw;
-        color: #ffd43b;
-        background-color: #002453;
+        }
+        & .trailer iframe{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                margin: 20px 0; 
+        }
     }
 }
 

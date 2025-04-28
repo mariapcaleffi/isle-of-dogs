@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url('imgs/bgdiv.jpg'); 
+    background-image: url('../imgs/bgdiv.jpg'); 
     background-size: cover; 
     background-position: center; 
 }
